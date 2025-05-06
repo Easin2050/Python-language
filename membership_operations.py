@@ -6,3 +6,4 @@ not in - True it the value is not find
 vegetables=['ladies finger','potato','carrot']
 
 print('potato' in vegetables)
+print('chilli' not in vegetables)
