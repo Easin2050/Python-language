@@ -1,0 +1,76 @@
+name="Easin"
+age=100
+# height=6.3
+
+print(name,age)
+
+#This is a one line comment
+'''This is a multi line comment'''
+
+'''
+Data type
+int- whole numbers 100,200,-100
+float- decimal numbers 1.15,-10.15
+complex- real and imaginary part
+a+bj
+'''
+
+a=10
+b=-10.5
+c=3+1j
+
+print(a,b,c)
+
+print(type(c))
+
+'''Boolean. It return true or false
+Logical operation'''
+
+is_rainy=True
+is_sunney=False
+print(is_rainy,is_sunney)
+
+'''None type means some absent types of values'''
+
+result=None
+result=199
+#result=None
+print(result)
+
+
+'''Sequence datatype-We can store multiple data in a single variable using this
+
+1.String-Is a sequence of charactor. We can store it using this symbols-""/''.
+2.Tuple-Tuple is similiar like list but we use () symbol in this. In tuple we can not change the value as a string.
+3.List-We can store a group of data in one variable. like-mylist=[e,x,b]
+'''
+
+string="This is a string"
+print(string)
+
+my_list=['a','b','c']
+print(my_list)
+
+my_tuple=('data1','data2','data3','data4')
+print(my_tuple)
+
+
+'''Set is the unordered collection of unique items.
+2 types-
+
+1.Set(mutable)
+2.Frozen set(Emutable)
+'''
+
+unique_number={1,1,2,2,3,3,4,4,5,5}
+print(unique_number)
+
+frozen_set=frozenset({1,1,2,3,4,3,5,4,3,2,5})
+print(frozen_set)
+
+
+'''Mapping Datatype- It belongs in Dictonary. This means collection of key value pairs'''
+
+person={'name':'Easin','age':25,'email':'a@gmail.com'}
+
+print(person)
