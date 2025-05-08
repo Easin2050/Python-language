@@ -12,3 +12,27 @@ while(i<=5):
 
 a=tuple(range(1,20,1))
 print(a)
+
+
+
+# Nested loop
+
+for i in range(1,3):
+    for j in range(4,6):
+        print(f"{i} {j}")
+
+
+# Break statement
+
+for i in range(1,10,1):
+    if i==5:
+        break
+
+    print(i)
+
+
+# Continue statement
+for i in range(1,10,1):
+    if i==5:
+        continue
+    print(i)
