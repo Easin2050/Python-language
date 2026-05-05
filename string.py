@@ -150,4 +150,45 @@ print(sentence2.find('because'))
 #24 Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 print(sentence2.rindex('because'))
 
- 
+#25 Slice the substring from a sentence
+sentence3= 'You cannot end a sentence with because because because is a conjunction'
+print(sentence3[31:54])
+
+#26 Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(sentence3.find('because'))
+
+#28 Does 'Coding For All' start with a substring Coding?
+print(company.startswith('Coding'))
+
+#29 Does 'Coding For All' end with a substring coding?
+print(company.endswith('coding'))
+
+#30 '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+string4='   Coding For All      '
+print(string4.strip())
+
+#31 Which one of the following variables return True when we use the method isidentifier():
+var1='30DaysOfPython'
+var2='thirty_days_of_python'
+print(var1.isidentifier())
+print(var2.isidentifier())
+#32 The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+libraries=['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(' # '.join(libraries))
+
+#33 Use the new line escape sequence to separate the following sentences.
+print('I am enjoying this challenge.\nI just wonder what this is.')
+#34 Use a tab escape sequence to write the following lines.
+print('Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki')
+#35 Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius {} is {} meters square.'.format(radius, area))
+#36 Make the following using string formatting methods:
+print('8 + 6 = {}'.format(8+6))
+print('8 - 6 = {}'.format(8-6))
+print('8 * 6 = {}'.format(8*6))
+print('8 / 6 = {:.2f}'.format(8/6))
+print('8 % 6 = {}'.format(8%6))
+print('8 // 6 = {}'.format(8//6))
+print('8 ** 6 = {}'.format(8**6))
