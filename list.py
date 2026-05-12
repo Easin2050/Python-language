@@ -103,3 +103,11 @@ print(it_companies)
 #11 Add an IT company to it_companies
 it_companies.append('Tesla')
 print(it_companies)
+
+#12 Insert an IT company in the middle of the companies list
+middle_index=len(it_companies)//2
+it_companies.insert(middle_index,'Samsung')
+print(it_companies)
+#13 Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies[4]=it_companies[4].upper()
+print(it_companies)
