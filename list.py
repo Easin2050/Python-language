@@ -128,3 +128,33 @@ print(it_companies)
 print(it_companies[:3])
 #19 Slice out the last 3 companies from the list
 print(it_companies[-3:])
+#20 Slice out the middle IT company or companies from the list
+middle_index=len(it_companies)//2
+print(it_companies[middle_index])
+#21 Remove the first IT company from the list
+del it_companies[0]
+print(it_companies)
+#22 Remove the middle IT company or companies from the list
+del it_companies[middle_index]
+print(it_companies)
+#23 Remove the last IT company from the list
+del it_companies[-1]
+print(it_companies)
+#24 Remove all IT companies from the list
+it_companies.clear()
+print(it_companies)
+#25 Destroy the IT companies list
+it_companies=[]
+print(it_companies)
+#26 Join the following lists:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+full_stack=front_end+back_end
+print(full_stack)
+#27 After joining the lists in question 26. Copy the joined list and assign it to
+# a variable full_stack, then insert Python and SQL after Redux.
+full_stack=front_end+back_end
+index_of_redux=full_stack.index('Redux')
+full_stack.insert(index_of_redux+1,'Python')
+full_stack.insert(index_of_redux+2,'SQL')
+print(full_stack)
