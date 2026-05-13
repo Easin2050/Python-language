@@ -108,6 +108,7 @@ print(company.split(' '))
 
 string2='Facebook,Google,Microsoft,Apple,IBM,Oracle,Amazon'
 string_split=string2.split(',')
+print("Answer of Q-14")
 print(string_split)
 
 #15 What is the character at index 0 in the string Coding For All.
