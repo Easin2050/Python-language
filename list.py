@@ -158,3 +158,25 @@ index_of_redux=full_stack.index('Redux')
 full_stack.insert(index_of_redux+1,'Python')
 full_stack.insert(index_of_redux+2,'SQL')
 print(full_stack)
+
+#Practice Day-2
+#1 The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+#2 Sort the list and find the min and max age
+ages_sorted=sorted(ages)
+print(ages_sorted[0])
+print(ages_sorted[-1])
+#3 Add the min age and the max age again to the list
+ages.append(ages_sorted[0])
+ages.append(ages_sorted[-1])
+print(ages)
+#4 Find the median age (one middle item or two middle items divided by two)
+ages_sorted=sorted(ages)
+n=len(ages_sorted)
+if n%2==0:
+    median=(ages_sorted[n//2-1]+ages_sorted[n//2])/2
+else:    median=ages_sorted[n//2]
+print(median)
+#5 Find the average age (sum of all items divided by their number )
+average=sum(ages)/len(ages)
+print(average)
