@@ -118,7 +118,7 @@ person={
     'age': 250,
     'country': 'Finland',
     'is_married': True,
-    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python','SQL','DSA','CP'],
+    'skills': ['JavaScript','React','Node','MongoDB','Python'],
     'address': {
         'street': 'Space street',
         'zipcode': '02210'
@@ -139,4 +139,17 @@ else:
 #2
 print('Python' in person['skills'])
 
+#3 
+if 'React' in person['skills'] and'JavaScript' in person['skills'] and 'Node' not in person['skills'] and 'Python' not in person['skills']:
+    print('He is a frontend developer')
+elif 'MongoDB' in person['skills'] and 'Node' in person['skills'] and 'React' in person['skills']:
+    print('He is a fullstack developer')
+elif 'MongoDB' in person['skills'] and 'Node' in person['skills'] and 'Python' in person['skills']:
+    print('He is a backend Developer')
+else:
+    print('unknown title')
+
+#4 
+if person['is_married']==True and person['country']=='Finland':
+    print(f'{person['first_name']+' '+person['last_name']} lives in {person['country']}. He is married')
 
